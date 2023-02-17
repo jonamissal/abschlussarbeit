@@ -1,0 +1,378 @@
+html{
+    background-color:#c3c3c3;
+    width:100%;
+}
+
+    nav{ 
+        height: 50px;
+        width: auto;
+        background-color: #c3c3c3;
+       
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        width: 95%;
+        float:center;
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    	text-align:center;
+        background-color: #c3c3c3;
+    }
+    nav li{
+        width: auto;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        margin: top 10px;
+        margin-right:40px;
+    }
+    nav li a{
+        font-family: 'Unbounded', cursive;
+        color:#090b0b;
+        font-size: 10px;
+        text-decoration:none;
+    }
+    nav li a.active{
+        color:#3a433f;
+        background-color: #01261900;
+        background-size: 70px 100%;
+    }
+    footer ul{ 
+        width: 95%;
+        float:center;
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    	text-align:center;
+        background-color: #c3c3c3;
+
+    }
+    footer li{
+        width: auto;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        margin: top 10px;
+        margin-right:40px;
+    }
+    footer li a{ 
+        font-family: 'Unbounded', cursive;
+        color:#090b0b;
+        font-size: 8px;
+        text-decoration:none;}
+    
+    .flexbox{       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width:90%;
+        margin-left:10%;
+        margin-right:10%;
+        margin-bottom:10%;
+        margin-top:5%;
+        background:#c3c3c3;
+    }
+    .flexbild{
+        display: flex;
+        flex-direction: column;
+        max-width:1600px ;
+        background:#c3c3c3;
+
+    }
+    .flexbox1{       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height:fit-content;
+        width: 90%;
+        padding:2%;
+        margin:2%;
+        background:#c3c3c3;
+    }
+    .flexbox2{       
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: start;
+        flex-wrap: wrap;
+        height:fit-content;
+        background:#c3c3c3;
+        margin-top: 4%;
+    }
+    p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #090b0b; 
+    padding: auto;
+    } 
+    
+    .flexelement{
+        background: #c3c3c3;
+        color:#ffffff;
+        text-align:left;
+        margin: 10px;
+        padding: 0px 0 0px 0;
+
+    }
+    .flexelement2{
+        background: #c3c3c3;
+        color:#ffffff;
+        text-align:left;
+        margin: 5px;
+        padding: 0px 0 0px 0;
+        max-width: 600px;
+    }
+    .flexelement3{
+        background: #c3c3c3;
+        color:#ffffff;
+        text-align:center;
+        margin: 5px;
+        max-width: 333px;
+        padding:auto;
+    }
+      div h1{
+        font-family: 'Unbounded', cursive;
+        color:#171717;
+        font-size: 45px;
+        text-decoration:none;
+        text-align: left;
+    }
+    div h2{
+        font-family: 'Unbounded', cursive;
+        color:#171717;
+        font-size: 20px;
+        text-decoration:none;
+        text-align: left;
+    }
+    div a{ 
+        text-align:left;
+        font-family: 'Unbounded', cursive;
+        color:#090b0b;
+        font-size: 10px;
+        text-decoration:none;
+    }
+    ul{
+        
+        list-style-type: none;
+        flex-direction: row;
+        align-items: center;
+    	text-align:center;
+        background-color: #c3c3c3;
+    }
+/*nicht selbst designter button*/
+.button{
+  appearance: button;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top:40px;
+
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.kontaktformular{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 4%;
+
+}
+.kontaktdaten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding-right: 2%;
+    font-family: 'Unbounded', cursive;
+    font-size: 14px;
+    justify-content: left;
+    margin-top: 4%;
+}
+
+.box{
+
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #726659;
+    
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+}
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+input {
+    font-family: 'Unbounded', cursive;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color:#090b0b;
+    
+    border: solid 1px#090b0b;
+    border-bottom: none;
+}
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #090b0b;
+    font-family: 'Unbounded', cursive;
+    font-size: 10px;
+    
+    border: solid 1px#090b0b;
+}
+#submit {
+    width: 502px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Unbounded', cursive;
+    font-size: 10px;
+    color: #090b0b;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #090b0b;
+    border-top: none;
+  }
+.umgebung{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aktivität{
+    display:flex;
+    flex-direction: column;
+}
+.team{
+    width: 1000px;
+    height: 500px;
+    background-image: url(member.png);
+    margin-left:  15%;
+    margin-bottom:30%;
+}
+.member{
+    width: 400px;
+    height:500px;
+    background-color: #ffffff70;
+    font-size: 14px;
+    font-family: 'Unbounded', cursive;
+
+}
+.anfahrt{  
+    width: 800px;
+    height: 600px;
+    background-image: url(map.png);
+    margin-left: 5%;
+}
+.auto{
+    width: 500px;
+    height:600px;
+    margin-left:  800px;
+    background-color: #ffffff70;
+    font-size: 14px;
+    font-family: 'Unbounded', cursive;
+
+
+}
+  .rooms{
+    width: 1500px;
+    height: 750px;
+    background-image: url(room1.png);
+    margin-bottom:  20px;
+  }
+  .rooms1{
+    width: 1500px;
+    height: 750px;
+    background-image: url(room2.png);
+    margin-bottom:  20px;
+
+  }
+  .rooms2{
+    width: 1500px;
+    height: 750px;
+    background-image: url(room3.png);
+  }
+
+  .raum{
+    width: 500px;
+    height:750px;
+    margin-left:  1000px;
+    background-color: #ffffff70;
+    font-size: 14px;
+    font-family: 'Unbounded', cursive;
+    
+  }
+  .text{
+    width: 450px;
+    height:400px;
+    margin-left: 25px;
+    padding-top: 350px;
+  }
+  .text1{
+    width: 350px;
+    height:400px;
+    margin-left: 25px;
+    padding-top: 150px;
+    font-size: 12px;
+    font-family: sans-serif;
+
+  }
+  .impressum{
+    margin:2%;
+    font-size: 9px;
+    font-family: sans-serif;
+    
+  }
+ 
+

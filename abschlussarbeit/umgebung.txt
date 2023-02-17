@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de" class="home">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>sinaundjona</title>
+		<link rel="stylesheet" href="design.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display:wght@400;500;800&family=Rubik+Spray+Paint&family=Unbounded:wght@500;800&display=swap" rel="stylesheet">
+	<style>
+       font-family: 'Unbounded', cursive;
+    
+        </style>
+    </head>
+
+    <style type="text/css">
+      </style>
